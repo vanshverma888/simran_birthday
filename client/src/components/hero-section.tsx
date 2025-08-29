@@ -44,7 +44,7 @@ export default function HeroSection() {
         
         <Button 
           onClick={scrollToRSVP}
-          className="party-card bg-primary text-primary-foreground px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
+          className="bg-primary text-white hover:bg-primary/90 px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all border-2 border-primary"
           data-testid="button-rsvp-hero"
         >
           <Gift className="w-5 h-5 mr-2" />
