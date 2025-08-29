@@ -38,7 +38,7 @@ export default function HeroSection() {
           </p>
           <p className="flex items-center justify-center gap-2" data-testid="text-venue">
             <MapPin className="w-6 h-6 text-primary" />
-            at Celebration Gardens, Delhi
+            at Alia House, Delhi
           </p>
         </div>
         

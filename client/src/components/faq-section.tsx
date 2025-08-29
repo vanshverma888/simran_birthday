@@ -17,7 +17,7 @@ const faqItems: FAQItem[] = [
   },
   {
     question: "Is the venue accessible for elderly guests?",
-    answer: "Yes! Celebration Gardens is fully accessible with ramps, elevators, and comfortable seating areas. We've also arranged for shuttle service from the parking area."
+    answer: "Yes! Alia House is fully accessible with ramps, elevators, and comfortable seating areas. We've also arranged for shuttle service from the parking area."
   },
   {
     question: "What if I have food allergies?",

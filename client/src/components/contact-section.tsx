@@ -28,11 +28,11 @@ export default function ContactSection() {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
               <a 
-                href="tel:+919876543210" 
+                href="tel:+9717939295" 
                 className="text-primary hover:text-secondary transition-colors"
                 data-testid="link-phone"
               >
-                +91 98765 43210
+                +91 9717939295
               </a>
             </CardContent>
           </Card>
@@ -44,11 +44,11 @@ export default function ContactSection() {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
               <a 
-                href="mailto:simran.birthday@celebration.com" 
+                href="mailto:vanshvermadtu@gmail.com" 
                 className="text-primary hover:text-secondary transition-colors"
                 data-testid="link-email"
               >
-                simran.birthday@celebration.com
+                vanshvermadtu@gmail.com
               </a>
             </CardContent>
           </Card>
