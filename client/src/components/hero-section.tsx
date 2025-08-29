@@ -14,12 +14,16 @@ export default function HeroSection() {
       <div className="absolute inset-0 marigold-doodle"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="doodle-border mandala-corner inline-block mb-8">
-          <img 
-            src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
-            alt="Traditional Indian celebration with marigold flowers and diyas" 
-            className="rounded-full w-32 h-32 object-cover mx-auto shadow-2xl border-4 border-accent" 
+          <div 
+            className="rounded-full w-32 h-32 mx-auto shadow-2xl border-4 border-accent bg-gradient-to-br from-primary to-secondary flex items-center justify-center"
             data-testid="img-hero-celebration"
-          />
+          >
+            <div className="text-center">
+              <div className="text-4xl mb-1">🎉</div>
+              <div className="text-sm font-semibold text-white">Simran's</div>
+              <div className="text-sm font-semibold text-white">Birthday</div>
+            </div>
+          </div>
         </div>
         
         <h1 className="text-5xl lg:text-7xl font-bold mb-4">

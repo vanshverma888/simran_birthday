@@ -48,12 +48,17 @@ export default function StorySection() {
           </div>
           
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800" 
-              alt="Vibrant Indian celebration with traditional decorations and rangoli patterns" 
-              className="rounded-2xl shadow-2xl w-full h-auto"
+            <div 
+              className="rounded-2xl shadow-2xl w-full h-96 bg-gradient-to-br from-accent via-primary to-secondary flex items-center justify-center"
               data-testid="img-celebration-scene"
-            />
+            >
+              <div className="text-center text-white">
+                <div className="text-6xl mb-4">🪔</div>
+                <div className="text-2xl font-bold mb-2">Indian Celebration</div>
+                <div className="text-lg">Rangoli • Diyas • Marigolds</div>
+                <div className="text-4xl mt-4">🌸 ✨ 🎊</div>
+              </div>
+            </div>
             <div className="absolute -top-4 -right-4 w-16 h-16 bg-accent rounded-full flex items-center justify-center">
               <Gift className="w-8 h-8 text-accent-foreground" />
             </div>
