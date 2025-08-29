@@ -1,0 +1,37 @@
+[18:03:07.120] Running build in Washington, D.C., USA (East) – iad1
+[18:03:07.120] Build machine configuration: 2 cores, 8 GB
+[18:03:07.137] Cloning github.com/vanshverma888/simran_birthday (Branch: main, Commit: b18b603)
+[18:03:07.277] Previous build caches not available
+[18:03:07.442] Cloning completed: 305.000ms
+[18:03:07.783] Running "vercel build"
+[18:03:08.172] Vercel CLI 46.0.5
+[18:03:08.350] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[18:03:08.943] Installing dependencies...
+[18:03:37.218] 
+[18:03:37.219] added 329 packages in 28s
+[18:03:37.219] 
+[18:03:37.219] 49 packages are looking for funding
+[18:03:37.219]   run `npm fund` for details
+[18:03:37.263] Running "npm run build"
+[18:03:37.374] 
+[18:03:37.375] > simran-birthday-frontend@1.0.0 build
+[18:03:37.375] > vite build
+[18:03:37.375] 
+[18:03:38.109] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[18:03:38.159] transforming...
+[18:03:41.088] [32m✓[39m 1653 modules transformed.
+[18:03:41.096] [31mx[39m Build failed in 2.96s
+[18:03:41.097] [31merror during build:
+[18:03:41.098] [31m[vite]: Rollup failed to resolve import "drizzle-orm" from "/vercel/path0/shared/schema.ts".
+[18:03:41.098] This is most likely unintended because it can break your application at runtime.
+[18:03:41.098] If you do want to externalize this module explicitly add it to
+[18:03:41.098] `build.rollupOptions.external`[31m
+[18:03:41.099]     at viteWarn (file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65839:17)
+[18:03:41.099]     at onwarn (file:///vercel/path0/client/node_modules/@vitejs/plugin-react/dist/index.js:90:7)
+[18:03:41.099]     at onRollupWarning (file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65869:5)
+[18:03:41.099]     at onwarn (file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65534:7)
+[18:03:41.099]     at file:///vercel/path0/client/node_modules/rollup/dist/es/shared/node-entry.js:20920:13
+[18:03:41.100]     at Object.logger [as onLog] (file:///vercel/path0/client/node_modules/rollup/dist/es/shared/node-entry.js:22792:9)
+[18:03:41.100]     at ModuleLoader.handleInvalidResolvedId (file:///vercel/path0/client/node_modules/rollup/dist/es/shared/node-entry.js:21536:26)
+[18:03:41.100]     at file:///vercel/path0/client/node_modules/rollup/dist/es/shared/node-entry.js:21494:26[39m
+[18:03:41.127] Error: Command "npm run build" exited with 1

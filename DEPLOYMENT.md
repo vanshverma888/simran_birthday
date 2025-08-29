@@ -27,17 +27,26 @@ Your beautiful Indian-style birthday invitation website is ready for deployment!
 - ✅ **Database**: In-memory storage (upgradeable to real database)
 - ✅ **Mobile**: Responsive design for all devices
 
-## 🛠 Files Added for External Deployment:
+## 🛠 Files Added/Updated for External Deployment:
 
 - `vercel.json` - Vercel deployment configuration
 - `netlify.toml` - Netlify deployment configuration  
 - `api/rsvp.ts` - Vercel serverless function for RSVPs
 - `netlify/functions/rsvp.ts` - Netlify function for RSVPs
-- `client/package.json` - Standalone frontend dependencies
+- `client/package.json` - Standalone frontend with all dependencies
 - `client/vite.config.ts` - Frontend build configuration
 - `client/postcss.config.js` - CSS processing setup
 - `client/tailwind.config.ts` - Tailwind configuration
+- `client/src/shared/schema.ts` - Local copy of data schemas
+- `client/components.json` - Shadcn UI configuration
 - `.env.example` - Environment variables template
+
+## ✅ Deployment Issues Fixed:
+
+- **Missing Dependencies**: Added drizzle-orm and drizzle-zod to client
+- **CSS Build Errors**: Fixed Tailwind CSS configuration and PostCSS setup
+- **Import Errors**: Created local schema copy for frontend builds
+- **Path Resolution**: Updated Vite aliases for proper imports
 
 ## 🎨 Website Features:
 
