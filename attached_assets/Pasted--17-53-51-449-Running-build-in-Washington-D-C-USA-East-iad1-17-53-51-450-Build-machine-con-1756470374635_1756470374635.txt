@@ -1,0 +1,44 @@
+[17:53:51.449] Running build in Washington, D.C., USA (East) – iad1
+[17:53:51.450] Build machine configuration: 2 cores, 8 GB
+[17:53:51.483] Cloning github.com/vanshverma888/simran_birthday (Branch: main, Commit: 435ef94)
+[17:53:51.624] Previous build caches not available
+[17:53:51.790] Cloning completed: 307.000ms
+[17:53:52.128] Running "vercel build"
+[17:53:52.552] Vercel CLI 46.0.5
+[17:53:52.730] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[17:53:53.332] Installing dependencies...
+[17:54:26.641] 
+[17:54:26.642] added 308 packages in 33s
+[17:54:26.642] 
+[17:54:26.643] 45 packages are looking for funding
+[17:54:26.643]   run `npm fund` for details
+[17:54:26.712] Running "npm run build"
+[17:54:26.826] 
+[17:54:26.827] > simran-birthday-frontend@1.0.0 build
+[17:54:26.827] > vite build
+[17:54:26.827] 
+[17:54:27.085] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[17:54:27.139] transforming...
+[17:54:27.158] node:internal/process/promises:394
+[17:54:27.158]     triggerUncaughtException(err, true /* fromPromise */);
+[17:54:27.158]     ^
+[17:54:27.158] 
+[17:54:27.159] [Failed to load PostCSS config: Failed to load PostCSS config (searchPath: /vercel/path0/client): [Error] Loading PostCSS Plugin failed: Cannot find module 'tailwindcss'
+[17:54:27.159] Require stack:
+[17:54:27.159] - /vercel/path0/postcss.config.js
+[17:54:27.159] 
+[17:54:27.159] (@/vercel/path0/postcss.config.js)
+[17:54:27.159] Error: Loading PostCSS Plugin failed: Cannot find module 'tailwindcss'
+[17:54:27.160] Require stack:
+[17:54:27.160] - /vercel/path0/postcss.config.js
+[17:54:27.160] 
+[17:54:27.160] (@/vercel/path0/postcss.config.js)
+[17:54:27.160]     at load (file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:33632:11)
+[17:54:27.160]     at file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:33657:16
+[17:54:27.160]     at Array.map (<anonymous>)
+[17:54:27.160]     at plugins (file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:33656:8)
+[17:54:27.160]     at processResult (file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:33726:14)
+[17:54:27.161]     at file:///vercel/path0/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:33856:14]
+[17:54:27.161] 
+[17:54:27.161] Node.js v22.18.0
+[17:54:27.176] Error: Command "npm run build" exited with 1
